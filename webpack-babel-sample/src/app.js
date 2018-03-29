@@ -1,5 +1,5 @@
 // import {kahitano, ibanaman} from "./header"
 // kahitano()
 // ibanaman()
-import checkBills() from "./check-bills"
+import {checkBills} from "./check-bills"
 checkBills()

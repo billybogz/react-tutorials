@@ -3764,23 +3764,10 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n\r\nObject(_header__WEBPACK_IMPORTED_MODULE_0__[\"kahitano\"])()\r\n\n\n//# sourceURL=webpack:///./src/app.js?");
-
-/***/ }),
-
-/***/ "./src/header.js":
-/*!***********************!*\
-  !*** ./src/header.js ***!
-  \***********************/
-/*! exports provided: kahitano */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"kahitano\", function() { return kahitano; });\n\r\nfunction kahitano(){\r\n  console.log(\"I am the header.\");\r\n};\r\n\n\n//# sourceURL=webpack:///./src/header.js?");
+eval("throw new Error(\"Module parse failed: Unexpected token (4:17)\\nYou may need an appropriate loader to handle this file type.\\n| // kahitano()\\r\\n| // ibanaman()\\r\\n| import checkBills() from \\\"./check-bills\\\"\\r\\n| checkBills()\\r\\n| \");\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
