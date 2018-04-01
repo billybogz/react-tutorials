@@ -3767,7 +3767,11 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 eval("throw new Error(\"Module parse failed: Unexpected token (2:17)\\nYou may need an appropriate loader to handle this file type.\\n| \\r\\n| import checkBills() from \\\"./check-bills\\\"\\r\\n| checkBills()\\r\\n| \");\n\n//# sourceURL=webpack:///./src/app.js?");
+=======
+eval("throw new Error(\"Module parse failed: Unexpected token (4:17)\\nYou may need an appropriate loader to handle this file type.\\n| // kahitano()\\r\\n| // ibanaman()\\r\\n| import checkBills() from \\\"./check-bills\\\"\\r\\n| checkBills()\\r\\n| \");\n\n//# sourceURL=webpack:///./src/app.js?");
+>>>>>>> dee25b8a60be4caca2d16e6ceb38c8d00472803c
 
 /***/ }),
 
