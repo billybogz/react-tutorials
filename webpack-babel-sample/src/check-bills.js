@@ -5,7 +5,7 @@ export function checkBills(){
 
   bills.forEach(function(val,index){
     let div = input1 % val
-    count = (input1 - div) / val
+    let count = (input1 - div) / val
     console.log(val+": "+count)
     input1 = div
   })
