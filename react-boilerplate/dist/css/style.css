@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Quicksand Normal';
+  src: url("/css/fonts/quicksand-normal/Quicksand_Book.otf");
+  src: url("/css/fonts/quicksand-normal/Quicksand_Book.eot?#iefix") format("embedded-opentype"), url("/css/fonts/quicksand-normal/Quicksand_Book.woff2") format("woff2"), url("/css/fonts/quicksand-normal/Quicksand_Book.woff") format("woff"), url("/css/fonts/quicksand-normal/Quicksand_Book.ttf") format("truetype"), url("/css/fonts/quicksand-normal/Quicksand_Book.svg") format("svg"); }
+
+@font-face {
+  font-family: 'Quicksand Bold';
+  src: url("/css/fonts/quicksand-bold/Quicksand_Bold.otf");
+  src: url("/css/fonts/quicksand-bold/Quicksand_Bold.eot?#iefix") format("embedded-opentype"), url("/css/fonts/quicksand-bold/Quicksand_Bold.woff2") format("woff2"), url("/css/fonts/quicksand-bold/Quicksand_Bold.woff") format("woff"), url("/css/fonts/quicksand-bold/Quicksand_Bold.ttf") format("truetype"), url("/css/fonts/quicksand-bold/Quicksand_Bold.svg") format("svg"); }
+
+@font-face {
+  font-family: 'Quicksand Light';
+  src: url("/css/fonts/quicksand-light/Quicksand_Light.otf");
+  src: url("/css/fonts/quicksand-light/Quicksand_Light.eot?#iefix") format("embedded-opentype"), url("/css/fonts/quicksand-light/Quicksand_Light.woff2") format("woff2"), url("/css/fonts/quicksand-light/Quicksand_Light.woff") format("woff"), url("/css/fonts/quicksand-light/Quicksand_Light.ttf") format("truetype"), url("/css/fonts/quicksand-light/Quicksand_Light.svg") format("svg"); }
+
+html, body, body div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address,
+cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong,
+sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: 'Quicksand Normal'; }
+
+body, html {
+  height: 100%; }
+
+ul {
+  margin-top: 0; }
+  ul li {
+    list-style: none; }
+
+a {
+  text-decoration: none !important;
+  display: block; }
+
+i.fa {
+  padding: 6px; }
+
+div[data-tether-visibility="open"] {
+  top: 0px;
+  left: 0px;
+  position: absolute; }
+
+div[data-tether-visibility="close"] {
+  display: none; }
+
+.popover.bs-tether-element-attached-left .popover-arrow, .popover.popover-right .popover-arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-right-color: rgba(0, 0, 0, 0.25);
+  border-left-width: 0; }
+
+.popover-arrow {
+  border-width: 11px; }
+
+.popover-arrow, .popover-arrow::after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid; }
+
+.popover-arrow, .popover-arrow::after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid; }
+
+.popover.bs-tether-element-attached-left .popover-arrow::after, .popover.popover-right .popover-arrow::after {
+  bottom: -10px;
+  left: 1px;
+  content: "";
+  border-right-color: #fff;
+  border-left-width: 0; }
+
+.popover-arrow::after {
+  content: "";
+  border-width: 10px; }
+
+.popover-title {
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 1rem;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: .2375rem .2375rem 0 0; }
+
+.popover-content {
+  padding: 9px 14px; }
