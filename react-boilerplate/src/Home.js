@@ -1,45 +1,25 @@
 import React from 'react'
-import Header from './Header'
 
-export default class Home extends React.Component{
+export default class Home extends React.Component{ // class components: statefull
+
   state = {
-    subtitle:"",
-    showButton:true
-  }
-
-  componentDidMount(){
-    console.log('componentDidMount')
-  }
-
-  componentWillUnmount(){
-    console.log(`componentWillUnmount`)
-    // removeEventListener
+    title: "My Other Title",
+    hidden: false
   }
 
   render(){
-    console.log('render')
-    const customSt = {
-      margin: "20px"
-    }
+    console.log(this.state.title)
     return(
       <div>
-        <Header />
-        <button style={customSt} class={this.state.showButton?"btn btn-primary":"btn btn-primary hidden"}
-          onClick={this.handleClick}> Test </button>
-        <input type="text" id="txtval" onChange={this.handleChange} />
-        <div id="value">{this.state.subtitle}</div>
+        <ListItem title={this.state.title} />
+        <button type="button" onClick={ this.changeTitle }><i class="fa fa-home"></i>&nbsp;Click</button>
       </div>
     )
   }
 
-  handleClick = () => {
-    this.setState({
-      showButton:false
-    })
-  }
-  handleChange = (e) => {
-    this.setState({
-      subtitle:e.target.value
-    })
-  }
+  changeTitle = () => this.setState( {title:"New Title"} )
+}
+
+const ListItem = (props) => { // functional comp: stateless | dumb
+  return <li onClick={props.click}>{props.title}</li>
 }
